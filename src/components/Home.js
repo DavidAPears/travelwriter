@@ -50,23 +50,23 @@ const Home = () => (
       <img className="contact-icon" src="./images/007-gmail.png" alt="e-mail link" width="50" height="50"></img>
     </a>
 
-    <a href="https://plus.google.com/+KirstenHenton" target="_blank">
+    <a href="https://plus.google.com/+KirstenHenton" target="_blank" rel="noopener noreferrer">
       <img className="contact-icon" src="./images/003-google-plus.png" alt="face-time link" width="50" height="50"></img>
     </a>
 
-    <a href="https://www.linkedin.com/in/kirstenhenton/" target="_blank">
+    <a href="https://www.linkedin.com/in/kirstenhenton/" target="_blank" rel="noopener noreferrer">
       <img className="contact-icon" src="./images/002-linkedin.png" alt="linkedin link" width="50" height="50"></img>
     </a>
 
-    <a href="https://www.twitter.com/kirstenjh" target="_blank">
+    <a href="https://www.twitter.com/kirstenjh" target="_blank" rel="noopener noreferrer">
       <img className="contact-icon" src="./images/001-twitter.png" alt="twitter link" width="50" height="50"></img>
     </a>
 
-    <a href="https://www.instagram.com/kirstenjh">
+    <a href="https://www.instagram.com/kirstenjh" target="_blank" rel="noopener noreferrer">
       <img className="contact-icon" src="./images/004-instagram.png" alt="instagram link" width="50" height="50"></img>
     </a>
 
-    <a href="skype:kirstenjh?call" target="_blank">
+    <a href="skype:kirstenjh?call" target="_blank" rel="noopener noreferrer">
       <img className="contact-icon" src="./images/005-skype.png" alt="skype link" width="50" height="50"></img>
     </a>
 

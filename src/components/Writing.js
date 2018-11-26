@@ -44,18 +44,32 @@ import $ from 'jquery';
 
     <section class="introsection">
       <div class="img3">
-        <h3 className="title-heading">Kirsten</h3>
+        <h3 className="title-heading">Travel</h3>
       </div>
 
       <div class="container">
+      <h1>PUBLICATIONS & AFFILIATIONS</h1>
+      <div class="publication-icons">
+      <img src="./images/lplogo.png" alt="Lonely planet logo" height="100" width="175"></img>
+      <img src="./images/BGTW.jpeg" alt="British Guild Of Travel Writers logo" height="100" width="100"></img>
+      <img src="./images/bbclogo.png" alt="BBC logo" height="100" width="125"></img>
+      <img src="./images/w2travel.png" alt="Weather2Travel logo" height="90" width="300"></img>
+      <img src="./images/rglogo.png" alt="Rough Guide logo" height="100" width="100"></img>
+      </div>
 
         <div class="inner">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus harum ipsam excepturi, quisquam aperiam unde dolore, alias doloribus quibusdam consectetur fugit ullam modi corrupti quaerat, odit ipsum ab nostrum ratione voluptate quasi. Illum pariatur reiciendis eaque explicabo officiis nulla a fugit libero recusandae amet provident vitae alias veniam, nesciunt tempora!</p>
+        <h1>EXAMPLE ARTICLES</h1>
+          <p class="staggered-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">TITLE OR ARTICLE (name of publication) - brief synpsis here with link</p>
+
+          <p class="staggered-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">TITLE OR ARTICLE (name of publication) - brief synpsis here with link</p>
+
+          <p class="staggered-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">TITLE OR ARTICLE (name of publication) - brief synpsis here with link</p>
         </div>
 
       <div class="mod-inline os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-        <h3>Heading here</h3>
-          <p>Voluptatem at porro similique enim veritatis tempora voluptate amet sed assumenda necessitatibus. Qui voluptate nostrum dignissimos, nisi ad quo necessitatibus. Aliquid, aut. Suscipit animi iusto, quia quibusdam pariatur saepe fugiat, debitis et maiores molestiae, illo aperiam nam inventore! Mollitia corrupti, ea iste quod veniam dolor aliquid delectus commodi aut qui?</p>
+        <h3>Travel Tip 💡</h3>
+        <p>Soemthing useful here</p>
+        <p>interesting little travel tip, with a <a href="http://www.bigworldsmallpockets.com/sarong-travelling/">link</a></p>
       </div>
 
       <div class="inner">
@@ -69,13 +83,14 @@ import $ from 'jquery';
 
   <section>
     <div class="img4 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-      <h3 className="title-heading" >Henton</h3>
+      <h3 className="title-heading" >Writer</h3>
     </div>
 
     <div class="container">
       <div class="caption os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-        <h3>Travel Tip!</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quibusdam excepturi unde ipsam earum commodi nostrum eveniet architecto, vitae a.</p>
+      <h3>Travel Tip 💡</h3>
+      <p>Soemthing useful here</p>
+      <p>interesting little travel tip, with a <a href="http://www.bigworldsmallpockets.com/sarong-travelling/">link</a></p>
         </div>
 
     <div class="inner">

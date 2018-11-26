@@ -4,7 +4,7 @@ import About from "./About";
 import Home from "./Home";
 import Splash from "./Splash";
 import Writing from "./Writing";
-import MapContainer from "./MapContainer";
+import Map from "./Map";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
@@ -20,7 +20,7 @@ class Main extends Component {
           <Route path="/about" component={About} />
           <Route path="/splash" component={Splash} />
           <Route path="/writing" component={Writing} />
-          <Route path="/mapcontainer" component={MapContainer} />
+          <Route path="/map" component={Map} />
         </React.Fragment>
       </Router>
     );

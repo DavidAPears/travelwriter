@@ -1,15 +1,5 @@
-.google-map {
-  width: 100%;
-  height: 500px;
-  border-color: grey;
-  border-width: medium;
-  background-color: pink;
-}
-
-.simple-map{
-  width: 100%;
-  height: 500px;
-  border-color: grey;
-  border-width: medium;
-  background-color: pink;
+.google-map{
+  display: flex;
+   align-items: center;
+   justify-content: center;
 }

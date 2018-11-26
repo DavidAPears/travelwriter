@@ -10,7 +10,7 @@
 
 .title-heading{
   color: white;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Raleway;
   margin: 0 auto;
     height: 100vh;
    display: flex;
@@ -24,6 +24,15 @@
     letter-spacing: -.05em;
     max-width: 60vw;
 }
+
+.publication-icons{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
 .introsection {
   /* background-color: #444; */
 }
@@ -52,6 +61,7 @@ font-size: 4vw;
   margin-right: auto;
   font-size: .875em; //14px
   padding-bottom: 40px;
+
   @media only screen and (min-width:768px) {
     max-width: 700px;
   }
@@ -62,7 +72,7 @@ font-size: 4vw;
     max-width: 66%;
   }
 }
-.mod-inset-left {
+/* .mod-inset-left {
   background: #cfcfcf;
   padding: 1.15em;
   margin: 1em 0;
@@ -70,11 +80,14 @@ font-size: 4vw;
   width: 20%;
   float: left;
   margin: 0 1em 0 0 ;
-
   }
-}
+} */
 .mod-inline,
 .caption {
+  background-color: #aae6e7;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
   float: right;
   clear: both;
   position: relative;

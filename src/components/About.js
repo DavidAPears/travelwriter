@@ -8,38 +8,40 @@ class About extends Component {
     };
 
 // ANIMATION JQUERY FOR ABOUT PAGE (START)
-  animation() {
-    function onScrollInit( items, trigger ) {
-      items.each( function() {
-        var osElement = $(this),
-          osAnimationClass = osElement.attr('data-os-animation'),
-          osAnimationDelay = osElement.attr('data-os-animation-delay');
-          osElement.css({
-            '-webkit-animation-delay':  osAnimationDelay,
-            '-moz-animation-delay':     osAnimationDelay,
-            'animation-delay':          osAnimationDelay
-          });
 
-          var osTrigger = ( trigger ) ? trigger : osElement;
-          console.log("Trigger:", trigger);
-          osTrigger.waypoint(function() {
-            osElement.addClass('animated').toggleClass(osAnimationClass);
-          },{
-            triggerOnce: false,
-              offset: '90%'
-          });
-        });
-      }
-        onScrollInit( $('.os-animation') );
-        onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
-      }
+  // animation() {
+  //   function onScrollInit( items, trigger ) {
+  //     console.log("HELLO");
+  //     items.each( function() {
+  //       var osElement = $(this),
+  //         osAnimationClass = osElement.attr('data-os-animation'),
+  //         osAnimationDelay = osElement.attr('data-os-animation-delay');
+  //         osElement.css({
+  //           '-webkit-animation-delay':  osAnimationDelay,
+  //           '-moz-animation-delay':     osAnimationDelay,
+  //           'animation-delay':          osAnimationDelay
+  //         });
+  //
+  //         var osTrigger = ( trigger ) ? trigger : osElement;
+  //         osTrigger.waypoint(function() {
+  //           osElement.addClass('animated').toggleClass(osAnimationClass);
+  //         },{
+  //           triggerOnce: false,
+  //             offset: '90%'
+  //         });
+  //       });
+  //     }
+  //       onScrollInit( $('.os-animation') );
+  //       onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+  //     }
+
 // ANIMATION JQUERY FOR ABOUT PAGE (END)
 
 
 
  render() {
 
-  this.animation();
+  // this.animation();
 
   return (
 
@@ -47,38 +49,44 @@ class About extends Component {
 
     <section class="introsection">
       <div class="img1">
-        <h3 className="title-heading">TRAVEL</h3>
+        <h3 className="title-heading">Kirsten</h3>
       </div>
 
       <div class="container">
 
         <div class="inner">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus harum ipsam excepturi, quisquam aperiam unde dolore, alias doloribus quibusdam consectetur fugit ullam modi corrupti quaerat, odit ipsum ab nostrum ratione voluptate quasi. Illum pariatur reiciendis eaque explicabo officiis nulla a fugit libero recusandae amet provident vitae alias veniam, nesciunt tempora!</p>
+          <p>ABOUT ME: consectetur adipisicing elit. Delectus harum ipsam excepturi, quisquam aperiam unde dolore, alias doloribus quibusdam consectetur fugit ullam modi corrupti quaerat, odit ipsum ab nostrum ratione voluptate quasi. Illum pariatur reiciendis eaque explicabo officiis nulla a fugit libero recusandae amet provident vitae alias veniam, nesciunt tempora!</p>
         </div>
 
       <div class="mod-inline os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-        <h3>Heading here</h3>
-          <p>Voluptatem at porro similique enim veritatis tempora voluptate amet sed assumenda necessitatibus. Qui voluptate nostrum dignissimos, nisi ad quo necessitatibus. Aliquid, aut. Suscipit animi iusto, quia quibusdam pariatur saepe fugiat, debitis et maiores molestiae, illo aperiam nam inventore! Mollitia corrupti, ea iste quod veniam dolor aliquid delectus commodi aut qui?</p>
+        <h3>Travel Tip 💡</h3>
+          <p>Visit UNESCO Sites</p>
+          <p>If you’re looking for the ultimate ‘Best Places to Visit in the World’ list, then, imho it’s easy to find.
+          Check out the <a href="https://whc.unesco.org/en/list/">UNESCO World Heritage Sites</a>.
+          Places only make it on this list if they have a particular cultural or natural significance that should be protected for the future or humankind. In other words, they’re a pretty big deal...</p>
       </div>
 
       <div class="inner">
-        <p>Earum eligendi temporibus, pariatur iste necessitatibus ad, nemo neque quasi quia error, minima nam molestias eum! At assumenda iste autem ea aut hic blanditiis quo possimus! Exercitationem atque officia expedita at, ut illo, ad tenetur, totam eius corporis possimus voluptates ea molestias esse earum obcaecati provident itaque fugit in reiciendis?</p>
-        <p class="mod-inset-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reprehenderit.</p>
-        <p>Ad aliquid quae voluptatibus, doloribus? Repudiandae quibusdam suscipit esse vero! Blanditiis, dignissimos expedita esse excepturi id quasi atque fuga reprehenderit nesciunt iusto officia culpa consectetur ipsum doloribus voluptatibus aliquam aut non minima, voluptas? Eligendi similique, voluptas qui aliquam non assumenda saepe unde! Fugiat ipsum aliquid perspiciatis perferendis, ex veritatis provident.</p>
-        <p>Assumenda aut saepe dolorem architecto autem in cumque ratione inventore tenetur illum optio ullam doloribus odio, pariatur nemo commodi, sapiente suscipit, itaque ut! Doloribus, esse iure officiis magni ab, dolore perspiciatis quam illum suscipit voluptates veritatis inventore rerum molestiae pariatur ad, error iste. Voluptas in maxime velit ut voluptates facilis!</p>
+        <p>BRIEF PROFESSIONAL BIO: pariatur iste necessitatibus ad, nemo neque quasi quia error, minima nam molestias eum! At assumenda iste autem ea aut hic blanditiis quo possimus! Exercitationem atque officia expedita at, ut illo, ad tenetur, totam eius corporis possimus voluptates ea molestias esse earum obcaecati provident itaque fugit in reiciendis?</p>
+
+        {/* <p class="mod-inset-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reprehenderit.</p> */}
+
+        <p>BRIEF PROFESSIONAL BIO: (cont) Ad aliquid quae voluptatibus, doloribus? Repudiandae quibusdam suscipit esse vero! Blanditiis, dignissimos expedita esse excepturi id quasi atque fuga reprehenderit nesciunt iusto officia culpa consectetur ipsum doloribus voluptatibus aliquam aut non minima, voluptas? Eligendi similique, voluptas qui aliquam non assumenda saepe unde! Fugiat ipsum aliquid perspiciatis perferendis, ex veritatis provident.</p>
+        <p>Autem in cumque ratione inventore tenetur illum optio ullam doloribus odio, pariatur nemo commodi, sapiente suscpit, itaque ut! Doloribus, esse iure officiis magni ab, dolore perspiciatis quam illum suscipit voluptates veritatis inventore rerum molestiae pariatur ad, error iste. Voluptas in maxime velit ut voluptates facilis!</p>
       </div>
     </div>
   </section>
 
   <section>
     <div class="img2 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-      <h1 className="title-heading">WRITER</h1>
+      <h1 className="title-heading">Henton</h1>
     </div>
 
     <div class="container">
       <div class="caption os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-        <h3>Travel Tip!</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quibusdam excepturi unde ipsam earum commodi nostrum eveniet architecto, vitae a.</p>
+        <h3>Travel Tip 💡</h3>
+        <p>Pack a Sarong</p>
+        <p>Sarongs can be used as a wrap when you are cold, a towel, a curtain, or a piece of clothing that can be worn dozens of <a href="http://www.bigworldsmallpockets.com/sarong-travelling/">different ways</a></p>
         </div>
 
     <div class="inner">
@@ -93,14 +101,6 @@ class About extends Component {
     </div>
   </section>
 
-  <section class="staggered-animation-container">
-      <h1>ARTICLE LINKS</h1>
-        <p class="staggered-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-        <p class="staggered-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.8s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-        <p class="staggered-animation" data-os-animation="fadeInRight" data-os-animation-delay="1.1s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </section>
 
 
 

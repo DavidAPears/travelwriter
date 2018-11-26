@@ -20,7 +20,7 @@ const Navbar = () => (
     </li>
     <li>
       <Link to="/map">
-        <img className="map-icon" src="./images/map.svg" alt="map link" width="40" height="40"></img>
+        <img className="map-icon" src="./images/world.png" alt="map link" width="40" height="40"></img>
       </Link>
     </li>
   </ul>
