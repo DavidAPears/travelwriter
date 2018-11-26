@@ -1,0 +1,27 @@
+/* NAVIGATION BAR STARTS */
+.nav-bar {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  float:none;
+  color: #3ea4ee;
+  overflow: hidden;
+  color: #3ea4ee;
+  display: inline-block;
+  background: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: #3ea4ee;
+        text-align: center;
+        padding: 1vw;
+    }
+    li a:hover {
+        background-color: #3ea4ee;
+        color: white;
+    }
+/* NAVIGATION BAR ENDS */

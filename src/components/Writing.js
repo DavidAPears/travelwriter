@@ -44,7 +44,7 @@ import $ from 'jquery';
 
     <section class="introsection">
       <div class="img3">
-        <h3 class="letterpress2">Published</h3>
+        <h3 className="title-heading">Kirsten</h3>
       </div>
 
       <div class="container">
@@ -69,7 +69,7 @@ import $ from 'jquery';
 
   <section>
     <div class="img4 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-      <h3>WRITER</h3>
+      <h3 className="title-heading" >Henton</h3>
     </div>
 
     <div class="container">

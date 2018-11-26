@@ -1,0 +1,167 @@
+/* ABOUT SECTION START */
+.body {
+  margin: 0;
+  padding: 0;
+  color: #646464;
+  background: white;
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+.title-heading{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
+    height: 100vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+  text-shadow:   1px 2px 0px #808080 ,
+                 -1px -2px 1px #333;
+  font-size: 10vw;
+    text-align: left;
+    font-weight: 300;
+    letter-spacing: -.05em;
+    max-width: 60vw;
+}
+.introsection {
+  /* background-color: #444; */
+}
+.letterpress{
+font-family: Helvetica, sans-serif;
+margin: 0 auto;
+  height: 100vh;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+text-shadow:   1px 2px 0px #808080 ,
+               -1px -2px 1px #333;
+color: yellow;
+font-size: 4vw;
+  text-align: left;
+  font-weight: 300;
+  letter-spacing: -.05em;
+  max-width: 60vw;
+}
+.container,
+.staggered-animation-container
+{
+  position: relative;
+  margin-left: auto;
+  max-width: 75%;
+  margin-right: auto;
+  font-size: .875em; //14px
+  padding-bottom: 40px;
+  @media only screen and (min-width:768px) {
+    max-width: 700px;
+  }
+  @media only screen and (min-width:1000px) {
+    max-width: 920px;
+  }
+  .inner {
+    max-width: 66%;
+  }
+}
+.mod-inset-left {
+  background: #cfcfcf;
+  padding: 1.15em;
+  margin: 1em 0;
+  @media only screen and (min-width:768px) {
+  width: 20%;
+  float: left;
+  margin: 0 1em 0 0 ;
+
+  }
+}
+.mod-inline,
+.caption {
+  float: right;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+  width: 30%;
+  &.left {
+    padding-right: 50px;
+    float: left;
+  }
+  h3 {
+    font-weight: 700;
+    color: white;
+    line-height: 1.2;
+    font-size: 10vh;
+    padding-top: 1em;
+    border-top: 2px solid;
+    margin: 0 ;
+  }
+  p, li {
+    font-size: .75rem;
+    line-height: 1.6;
+  }
+}
+
+[class^="img"] {
+  background-attachment: fixed;
+  height: 200px;
+  margin-bottom: 50px;
+  padding: 40px;
+  display: table;
+  width: 100%;
+  h3 {
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+  }
+  + .container .caption {
+    background: #fff;
+    padding: 20px;
+    margin-top: -50px;
+    h3 {
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+}
+
+.img1 {
+  background: url(https://i.pinimg.com/originals/e7/01/ef/e701ef08d033612fa93ef481d0209fb0.jpg) no-repeat center bottom / cover;
+  height: 100vh;
+}
+.img2 {
+  height: 300px;
+  background: url(https://www.wallpaperup.com/uploads/wallpapers/2012/12/29/26882/424545d2ae2194a273c164bbdfdce534-700.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+}
+.img3 {
+  background: url(http://s1.1zoom.me/b5250/957/Scenery_Temples_Evening_Bagan_Myanmar_Shrubs_Fog_516480_1920x1080.jpg) no-repeat center bottom / cover;
+  height: 100vh;
+}
+.img4 {
+  height: 300px;
+  background: url(https://www.hdwallpaper.nu/wp-content/uploads/2017/03/camel-14.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+}
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+
+// animation
+
+.os-animation{
+  opacity: 0;
+}
+
+.os-animation.animated{
+    opacity: 1;
+}
+/* ABOUT SECTION END */
