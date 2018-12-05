@@ -1,8 +1,10 @@
-#map { height: 70vh; }
 
-.map {
-background-color: yellow;
+.leafletmap {
 font-family: 'Raleway', sans-serif;
 text-align: center;
-height: 70vh;
+height: 75vh;
+width: 75vw;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
 }
