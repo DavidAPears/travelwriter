@@ -8,15 +8,15 @@ import Leaflet from 'leaflet';
 const MapView = (props) => {
   let position = null;
   let shopData = null;
-    console.log(position);
-    console.log(shopData);
+    console.log("Position:", position);
+    console.log("ShopData:", shopData);
   if (props.coords) {
   position = [props.coords.latitude, props.coords.longitude]
 }
 if(props.shopData) {
   shopData = props.shopData;
 }
-console.log(shopData);
+console.log("ShopData:", shopData);
 
     const coffeeIcon = new L.Icon({
       iconUrl: require('../pencil.png'),
@@ -55,7 +55,6 @@ console.log(shopData);
           <span>
             {shop.name}
             {shop.description}
-            {shop.location.street}
           </span>
         </Popup>
 
@@ -63,7 +62,7 @@ console.log(shopData);
       ));
 
       const map = (
-        <Map center={position} zoom={18}>
+        <Map center={position} zoom={15}>
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
@@ -76,8 +75,9 @@ console.log(shopData);
 
       return(
         <div className="map-view">
+        <p>HELLO</p>
+        
           {map}
-
 
         </div>
 

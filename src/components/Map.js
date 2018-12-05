@@ -6,6 +6,7 @@ import {
   Marker,
   } from 'react-google-maps';
 
+
 class Map extends Component {
 
  render() {
@@ -16,6 +17,8 @@ class Map extends Component {
       >
       </GoogleMap>
    ));
+
+
 
    return(
       <div className="google-map">

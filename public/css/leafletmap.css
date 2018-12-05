@@ -1,0 +1,8 @@
+#map { height: 70vh; }
+
+.map {
+background-color: yellow;
+font-family: 'Raleway', sans-serif;
+text-align: center;
+height: 70vh;
+}

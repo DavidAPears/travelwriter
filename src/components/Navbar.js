@@ -28,6 +28,11 @@ const Navbar = () => (
         <img className="map-icon" src="./images/world.png" alt="map link" width="40" height="40"></img>
       </Link>
     </li>
+    <li>
+      <Link to="/leafletmap">
+        <img className="map-icon" src="./images/world.png" alt="map link" width="40" height="40"></img>
+      </Link>
+    </li>
   </ul>
 );
 
