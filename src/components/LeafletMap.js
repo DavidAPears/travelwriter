@@ -19,14 +19,21 @@ class LeafletMap extends React.Component {
 
         var map = L.map(element);
 
-        var marker = L.marker([51.515968, -0.174970]).addTo(map);
         // Marker1 = LONDON, ENGLAND
-        var marker = L.marker([52.3680, 4.9036]).addTo(map);
+        var marker1 = L.marker([51.515968, -0.174970]).addTo(map);
+        marker1.bindPopup("<b>London</b><br>Article Title<br>Publication Name<br>Link").openPopup();
+
         // Marker2 = AMSTERDAM, NETHERLANDS
-        var marker = L.marker([23.1136, -82.3666]).addTo(map);
+        var marker2 = L.marker([52.3680, 4.9036]).addTo(map);
+        marker2.bindPopup("<b>Amsterdam</b><br>Article Title<br>Publication Name<br>Link").openPopup();
+
         // Marker3 = HAVANA, CUBA
-        var marker = L.marker([6.9271, 79.8612]).addTo(map);
+        var marker3 = L.marker([23.1136, -82.3666]).addTo(map);
+        marker3.bindPopup("<b>Havana</b><br>Article Title<br>Publication Name<br>Link").openPopup();
+
         // Marker4 = COLOMBO, SRI LANKA
+        var marker4 = L.marker([6.9271, 79.8612]).addTo(map);
+        marker4.bindPopup("<b>Colombo</b><br>Article Title<br>Publication Name<br>Link").openPopup();
 
         var popup = L.popup()
           .setLatLng([55.9533, -3.1883])
