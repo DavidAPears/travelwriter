@@ -84,12 +84,91 @@ class LeafletMap extends React.Component {
         marker13.bindPopup(
         "<b>Madagascar</b><br>'8 reasons why madagascar should be on your radar`<br><b>Rough Guides</b><br><a href=https://www.roughguides.com/article/8-reasons-why-madagascar-should-be-on-your-radar/ target=new>click to read").openPopup();
 
+        // Marker13 = Inverness, Scotland
+        var marker13 = L.marker([57.477772, -4.224721]).addTo(map);
+        marker13.bindPopup(
+        "<b>Inverness, Scotland</b><br>'A taste of the Highlands: things to do in Inverness`<br><b>Love Exploring</b><br><a href=https://www.loveexploring.com/news/72393/things-to-do-in-inverness target=new>click to read").openPopup();
+
+        // Marker14 = Wildlife Article (Bengal, India)
+        var marker14 = L.marker([22.978624, 87.747803]).addTo(map);
+        marker14.bindPopup(
+        "<b>Bengal, India</b><br>'9 of the best wildlife tours for 2018/2019`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/best-wildlife-tours-for-2018.php target=new>click to read").openPopup();
+
+        // Marker15 = Scotland, UK
+        var marker15 = L.marker([57.8166634, -8.583331]).addTo(map);
+        marker15.bindPopup(
+        "<b>Scotland, UK</b><br>'Places to visit in Scotland to avoid the crowds`<br><b>Love Exploring</b><br><a href=https://www.loveexploring.com/news/66175/places-to-visit-in-scotland-to-avoid-the-crowds target=new>click to read").openPopup();
+
+        // Marker16 = Alentejo, Portugal
+        var marker16 = L.marker([37.525024, -8.785052]).addTo(map);
+        marker16.bindPopup(
+        "<b>Alentejo, Portugal</b><br>'Why you need to get to know the Alentejo, Portugal`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/why-you-need-to-get-to-know-the-alentejo-portugal.php target=new>click to read").openPopup();
+
+        // Marker17 = Torre de Palma Wine Hotel, Alentejo, Portugal
+        var marker17 = L.marker([38.058289, -8.116430]).addTo(map);
+        marker17.bindPopup(
+        "<b>Torre de Palma Wine Hotel, Alentejo, Portugal</b><br>'Tried & Tested: Torre de Palma Wine Hotel, Alentejo, Portugal`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/reviews/torre-de-palma-wine-hotel-alentejo-portugal.php target=new>click to read").openPopup();
+
+        // Marker18 = Britain's National Parks
+        var marker18 = L.marker([54.279399, -0.877392]).addTo(map);
+        marker18.bindPopup(
+        "<b>North York Moors National Park</b><br>'6 reasons to get out and explore Britain's national parks`<br><b>Love Exploring</b><br><a href=https://www.loveexploring.com/news/64951/explore-british-national-parks target=new>click to read").openPopup();
+
+        // Marker19 = Edinburgh, Scotland
+        var marker19 = L.marker([55.9533, -3.1883]).addTo(map);
+        marker19.bindPopup(
+        "<b>Edinburgh, Scotland</b><br>'10 reasons why you should visit Edinburgh`<br><b>DK Travel</b><br><a href=https://www.dk.com/uk/category/travel/ target=new>click to read").openPopup();
+
+        // Marker20 = Dubin, Ireland
+        var marker20 = L.marker([53.350140,-6.266155]).addTo(map);
+        marker20.bindPopup(
+        "<b>Dubin, Ireland</b><br>'Dublin highlights: How to spend a weekend in the Irish capital`<br><b>DK Travel</b><br><a href=https://www.weather2travel.com/blog/dublin-highlights-how-to-spend-a-weekend-in-the-irish-capital.php target=new>click to read").openPopup();
+
+        // Marker21 = French Ardennes
+        var marker21 = L.marker([49.7625,4.6285]).addTo(map);
+        marker21.bindPopup(
+        "<b>French Ardennes</b><br>'Discover history, adventure & a little luxury in French Ardennes`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/french-ardennes-discover-history-adventure-and-a-little-luxury.php target=new>click to read").openPopup();
+
+        // Marker22 = Bangkok, Thailand
+        var marker22 = L.marker([13.736717,100.523186]).addTo(map);
+        marker22.bindPopup(
+        "<b>Bangkok, Thailand</b><br>'7 reasons to stopover in Bangkok, Thailand`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/top-reasons-to-stopover-in-bangkok.php target=new>click to read").openPopup();
+
+        // Marker23 = Burma / Myanmar
+        var marker23 = L.marker([16.871311, 96.199379]).addTo(map);
+        marker23.bindPopup(
+        "<b>Burma / Myanmar</b><br>'7 reasons to add Burma to your travel bucket list`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/top-reasons-to-visit-burma.php target=new>click to read").openPopup();
+
+        // Marker24 = Meknes, Morocco
+        var marker24 = L.marker([33.89352, -5.54727]).addTo(map);
+        marker24.bindPopup(
+        "<b>Meknes, Morocco</b><br>'Meknes: the Morrocan city you've never heard of but need to visit`<br><b>WRough Guides</b><br><a href=https://www.roughguides.com/article/meknes-morocco/ target=new>click to read").openPopup();
+
+        // Marker25 = Hong Kong
+        var marker25 = L.marker([16.871311, 96.199379]).addTo(map);
+        marker25.bindPopup(
+        "<b>Hong Kong</b><br>'How to spend 48 hours in Hong Kong`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/48-hours-in-hong-kong-travel-guide.php target=new>click to read").openPopup();
+
+        // Marker26 = Uzbekistan
+        var marker26 = L.marker([16.871311, 96.199379]).addTo(map);
+        marker26.bindPopup(
+        "<b>Uzbekistan</b><br>'8 reasons to go to Uzbekistan now`<br><b>Rough Guides</b><br><a href=https://www.roughguides.com/article/8-reasons-to-go-to-uzbekistan-now/ target=new>click to read").openPopup();
+
+        // Marker27 = Hikkaduwa, Sri Lanka
+        var marker27 = L.marker([6.139468, 80.106285]).addTo(map);
+        marker27.bindPopup(
+        "<b>Hikkaduwa, Sri Lanka</b><br>'Easy day trips from Hikkaduwa, Sri Lanka`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/easy-day-trips-from-hikkaduwa-sri-lanka.php target=new>click to read").openPopup();
+
+        // Marker28 = Tenerife
+        var marker28 = L.marker([28.291565, -16.629129]).addTo(map);
+        marker28.bindPopup(
+        "<b>Tenerife</b><br>'7 reasons to leave your lounger in Tenerife`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/7-reasons-to-leave-your-lounger-in-tenerife.php target=new>click to read").openPopup();
 
 
-        var popup = L.popup()
-          .setLatLng([55.9533, -3.1883])
-          .setContent("Click pins to reveal articles ✏️")
-          .openOn(map);
+        // var popup = L.popup()
+        //   .setLatLng([55.9533, -3.1883])
+        //   .setContent("Click pins to reveal articles ✏️")
+        //   .openOn(map);
 
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors'
@@ -104,7 +183,6 @@ class LeafletMap extends React.Component {
         } else {
             this.map = this.createMap(ReactDOM.findDOMNode(self));
         }
-
         this.setupMap();
     }
 
@@ -117,7 +195,6 @@ class LeafletMap extends React.Component {
          </div>
         </div>
       )
-        /*Returns div with id map*/
     }
 }
 
