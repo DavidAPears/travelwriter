@@ -5,17 +5,40 @@ import Home from "./Home";
 import Splash from "./Splash";
 import Writing from "./Writing";
 import Map from "./Map";
-import ArticlesMap from "./ArticlesMap";
-import ArticleMarker from "./ArticleMarker";
-import ArticleMapContainer from "./ArticleMapContainer";
+import MapView from '../containers/MapView.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
-
+const Request = require('../helpers/request.js');
 
 
 class Main extends Component {
 
-  render() {
+  constructor(props) {
+    super(props);
+    this.state = {
+      cafes: []
+    }
+  }
+
+  componentDidMount() {
+    const url = "http://localhost:3001/api/coffee-shops";
+    fetch(url)
+    .then((res) =>
+      res.json()
+
+    )
+    .then((data) =>{
+      this.setState({
+        cafes: data
+      })
+       console.log(this.state.cafes);
+    })
+    .catch((err)=>{
+      console.error(err);
+    });
+  }
+
+
+render() {
     return (
       <Router>
         <React.Fragment>
@@ -25,9 +48,7 @@ class Main extends Component {
           <Route path="/splash" component={Splash} />
           <Route path="/writing" component={Writing} />
           <Route path="/map" component={Map} />
-          <Route path="/articlesmap" component={ArticlesMap} />
-          <Route path="/articlemarker" component={ArticleMarker} />
-          <Route path="/articlemapcontainer" component={ArticleMapContainer} />
+          <Route path="/map2" render={() => (<MapView shopData={this.state.cafes} />)}/>
         </React.Fragment>
       </Router>
     );

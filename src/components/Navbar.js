@@ -24,7 +24,7 @@ const Navbar = () => (
       </Link>
     </li>
     <li>
-      <Link to="/articlesmap">
+      <Link to="/map2">
         <img className="map-icon" src="./images/world.png" alt="map link" width="40" height="40"></img>
       </Link>
     </li>
