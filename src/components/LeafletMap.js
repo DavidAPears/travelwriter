@@ -10,16 +10,27 @@ class LeafletMap extends React.Component {
     }
 
     setupMap(){
-        this.map.setView([51.515968, -0.174970], 4,);
-        // NB: Lat/Long hardcoded to Paddington, London, Writers base/office
+        this.map.setView([30.045916, 31.224291], 3,);
+        // NB: Lat/Long hardcoded to Cairo with zoom of '3' as this renders nice centralised map (across full screen web-browser)
     }
-
 
     createMap(element){
 
         var map = L.map(element);
 
+        // NB: Custom icon, not req'd here !
+        // var myIcon = L.icon({
+        //   iconUrl: require('../pencil2.png'),
+        //   iconSize: [38, 95],
+        //   iconAnchor: [22, 94],
+        //   popupAnchor: [-3, -76],
+        //   shadowUrl: 'my-icon-shadow.png',
+        //   shadowSize: [68, 95],
+        //   shadowAnchor: [22, 94]
+        // });
+
         // Marker1 = Schengen, Luxembourg
+        //var marker1 = L.marker([49.4709, 6.3650], {icon: myIcon}).addTo(map);   <- In cases where custom icon is req'd
         var marker1 = L.marker([49.4709, 6.3650]).addTo(map);
         marker1.bindPopup(
         "<b>Schengen, Luxembourg</b><br>'Schengen: A tiny village that changed European travel`<br><b>BBC Travel</b><br><a href=http://www.bbc.com/travel/story/20181202-schengen-a-tiny-village-that-changed-european-travel target=new>click to read").openPopup();
