@@ -18,17 +18,6 @@ class LeafletMap extends React.Component {
 
         var map = L.map(element);
 
-        // NB: Custom icon, not req'd here !
-        // var myIcon = L.icon({
-        //   iconUrl: require('../pencil2.png'),
-        //   iconSize: [38, 95],
-        //   iconAnchor: [22, 94],
-        //   popupAnchor: [-3, -76],
-        //   shadowUrl: 'my-icon-shadow.png',
-        //   shadowSize: [68, 95],
-        //   shadowAnchor: [22, 94]
-        // });
-
         // Marker1 = Schengen, Luxembourg
         //var marker1 = L.marker([49.4709, 6.3650], {icon: myIcon}).addTo(map);   <- In cases where custom icon is req'd
         var marker1 = L.marker([49.4709, 6.3650]).addTo(map);
@@ -153,15 +142,15 @@ class LeafletMap extends React.Component {
         // Marker24 = Meknes, Morocco
         var marker24 = L.marker([33.89352, -5.54727]).addTo(map);
         marker24.bindPopup(
-        "<b>Meknes, Morocco</b><br>'Meknes: the Morrocan city you've never heard of but need to visit`<br><b>WRough Guides</b><br><a href=https://www.roughguides.com/article/meknes-morocco/ target=new>click to read").openPopup();
+        "<b>Meknes, Morocco</b><br>'Meknes: the Morrocan city you've never heard of but need to visit`<br><b>Rough Guides</b><br><a href=https://www.roughguides.com/article/meknes-morocco/ target=new>click to read").openPopup();
 
         // Marker25 = Hong Kong
-        var marker25 = L.marker([16.871311, 96.199379]).addTo(map);
+        var marker25 = L.marker([22.28552, 114.15769]).addTo(map);
         marker25.bindPopup(
         "<b>Hong Kong</b><br>'How to spend 48 hours in Hong Kong`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/48-hours-in-hong-kong-travel-guide.php target=new>click to read").openPopup();
 
         // Marker26 = Uzbekistan
-        var marker26 = L.marker([16.871311, 96.199379]).addTo(map);
+        var marker26 = L.marker([ 41.311081, 69.240562]).addTo(map);
         marker26.bindPopup(
         "<b>Uzbekistan</b><br>'8 reasons to go to Uzbekistan now`<br><b>Rough Guides</b><br><a href=https://www.roughguides.com/article/8-reasons-to-go-to-uzbekistan-now/ target=new>click to read").openPopup();
 
@@ -174,6 +163,51 @@ class LeafletMap extends React.Component {
         var marker28 = L.marker([28.291565, -16.629129]).addTo(map);
         marker28.bindPopup(
         "<b>Tenerife</b><br>'7 reasons to leave your lounger in Tenerife`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/7-reasons-to-leave-your-lounger-in-tenerife.php target=new>click to read").openPopup();
+
+        // Marker29 = Mandalay, Myanmar
+        var marker29 = L.marker([21.954510, 96.093292]).addTo(map);
+        marker29.bindPopup(
+        "<b>Mandalay, Myanmar</b><br>'TOP 5: PLACES TO STOP ON THE ROAD TO MANDALAY`<br><b>Destinations Guide</b><br><a href=http://www.countrybycountry.com/features/activities/top-5-places-stop-road-mandalay/ target=new>click to read").openPopup();
+
+        // Marker30 = Yangon, Myanmar
+        var marker30 = L.marker([16.855, 96.15]).addTo(map);
+        marker30.bindPopup(
+        "<b>Yangon, Myanmar</b><br>'The Origins Of The Thingyan Festival, Burma`<br><b>The Culture Trip</b><br><a href=https://theculturetrip.com/asia/myanmar/articles/the-origins-of-the-thingyan-festival-burma/ target=new>click to read").openPopup();
+
+        // Marker31 = Yangon, Myanmar (2nd Article)
+        var marker31 = L.marker([16.835, 96.22]).addTo(map);
+        marker31.bindPopup(
+        "<b>Yangon, Myanmar</b><br>'PERFECT WEEKEND: 48-HOURS IN YANGON, MYANMAR`<br><b>About Time Magazine</b><br><a href=https://www.abouttimemagazine.co.uk/travel/48-hours-in-yangon-myanmar/ target=new>click to read").openPopup();
+
+        // Marker32 = Yangon, Myanmar (3rd Article)
+        var marker32 = L.marker([16.9, 96.25]).addTo(map);
+        marker31.bindPopup(
+        "<b>Yangon, Myanmar</b><br>'PERFECT WEEKEND: 48-HOURS IN YANGON, MYANMAR`<br><b>About Time Magazine</b><br><a href=https://www.abouttimemagazine.co.uk/travel/48-hours-in-yangon-myanmar/ target=new>click to read").openPopup();
+
+        // Marker33 = York, Englad
+        var marker33 = L.marker([53.95763, -1.08271]).addTo(map);
+        marker33.bindPopup(
+        "<b>York, England</b><br>'The Top 10 Museums And Galleries In York`<br><b>The Culture Trip</b><br><a href=https://theculturetrip.com/europe/united-kingdom/england/articles/the-top-10-museums-and-galleries-in-york/ target=new>click to read").openPopup();
+
+        // Marker34 = Algarve, Portugal
+        var marker34 = L.marker([37.0180, -7.9308]).addTo(map);
+        marker34.bindPopup(
+        "<b>Algarve, Portugal</b><br>'Where to go at Easter 2019: Holiday ideas for the best weather`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/holidays/where-to-go-at-easter-best-weather-ideas.php target=new>click to read").openPopup();
+
+        // Marker35 = Teide National Park, Tenerife
+        var marker35 = L.marker([28.26916559, -16.636830786]).addTo(map);
+        marker35.bindPopup(
+        "<b>Teide National Park, Tenerife</b><br>'What You Must Know About Teide National Park, Tenerife`<br><b>The Culture Trip</b><br><a href=https://theculturetrip.com/europe/spain/articles/what-you-must-know-about-teide-national-park-tenerife/ target=new>click to read").openPopup();
+
+        // Marker36 = North Tenerife
+        var marker36 = L.marker([28.4845, -16.3434]).addTo(map);
+        marker36.bindPopup(
+        "<b>North Tenerife</b><br>'PERFECT WEEKEND: 48-HOURS IN NORTH TENERIFE`<br><b>About Time Magazine</b><br><a href=https://www.abouttimemagazine.co.uk/travel/about-time-you-discovered-north-tenerife/ target=new>click to read").openPopup();
+
+        // Marker37 = Brasov, Romania
+        var marker37 = L.marker([45.64861, 25.60613]).addTo(map);
+        marker37.bindPopup(
+        "<b>Brasov, Romania</b><br>'TAKE AN OFF SEASON HIKE IN POIANA BRASOV`<br><b>Kiss From The World</b><br><a href=https://www.kissfromtheworld.com/magazine/blog-posts/travel/romania/poiana-brasov/take-an-off-season-hike-in-poiana-brasov/ target=new>click to read").openPopup();
 
 
         // var popup = L.popup()
