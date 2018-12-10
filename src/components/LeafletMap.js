@@ -10,7 +10,7 @@ class LeafletMap extends React.Component {
     }
 
     setupMap(){
-        this.map.setView([30.045916, 31.224291], 3,);
+        this.map.setView([30.045916, 31.224291], 2.5,);
         // NB: Lat/Long hardcoded to Cairo with zoom of '3' as this renders nice centralised map (across full screen web-browser)
     }
 
