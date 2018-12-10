@@ -6,7 +6,6 @@ import Splash from "./Splash";
 import Writing from "./Writing";
 import Map from "./Map";
 import LeafletMap from "./LeafletMap";
-import MapView from '../containers/MapView.js';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 const Request = require('../helpers/request.js');
 
@@ -49,7 +48,6 @@ render() {
           <Route path="/splash" component={Splash} />
           <Route path="/writing" component={Writing} />
           <Route path="/map" component={Map} />
-          <Route path="/map2" render={() => (<MapView shopData={this.state.cafes} />)}/>
           <Route path="/leafletmap" component={LeafletMap} />
         </React.Fragment>
       </Router>

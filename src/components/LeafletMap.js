@@ -201,12 +201,12 @@ class LeafletMap extends React.Component {
 
       return(
         <div>
-         <div className="leafletmap">
-         // NB: Map renders in this div!
-         </div>
+          <div className="leafletmap">
+          {/*NB: Map to render here*/}
+          </div>
         </div>
       )
     }
-}
+  }
 
 export default LeafletMap;
