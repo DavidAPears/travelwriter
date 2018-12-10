@@ -2,11 +2,12 @@
 .nav-bar {
   display: inline-block;
   list-style-type: none;
-  text-align: center;
   background: white;
+  text-decoration: none;
 }
     li {
         float: left;
+        text-decoration: none;
     }
     li a {
         display: inline-block;
@@ -14,11 +15,13 @@
         text-align: center;
         padding: 1vw;
         border-radius: 7.5px;
+        text-decoration: none;
     }
     li a:hover {
         background-color: #02afdd;
         color: white;
         animation: pulse 1s;
+        text-decoration: none;
     }
 
     @keyframes pulse {

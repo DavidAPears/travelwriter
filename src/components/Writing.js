@@ -1,8 +1,6 @@
 import React from "react";
 import $ from 'jquery';
 
-
-
 // ANIMATION JQUERY FOR ABOUT PAGE (START)
 
   // animation() {
@@ -34,7 +32,6 @@ import $ from 'jquery';
 // ANIMATION JQUERY FOR ABOUT PAGE (END)
 
 
-
  const Writing = () => (
 
   // this.animation();
@@ -50,11 +47,21 @@ import $ from 'jquery';
       <div class="container">
       <h1>PUBLICATIONS & AFFILIATIONS</h1>
       <div class="publication-icons">
-      <img src="./images/lplogo.png" alt="Lonely planet logo" height="100" width="175"></img>
-      <img src="./images/BGTW.jpeg" alt="British Guild Of Travel Writers logo" height="100" width="100"></img>
-      <img src="./images/bbclogo.png" alt="BBC logo" height="100" width="125"></img>
-      <img src="./images/w2travel.png" alt="Weather2Travel logo" height="90" width="300"></img>
-      <img src="./images/rglogo.png" alt="Rough Guide logo" height="100" width="100"></img>
+      <img src="./images/lplogo.png" alt="Lonely planet logo" height="15%" width="15%"></img>
+      <br></br>
+      <img src="./images/BGTW.jpeg" alt="British Guild Of Travel Writers logo" height="10%" width="10%"></img>
+      <br></br>
+      <img src="./images/wanderslust.png" alt="Wanderlust logo" height="10%" width="10%"></img>
+      <br></br>
+      <img src="./images/DKTravel.png" alt="D K Travel logo" height="10%" width="10%"></img>
+      <br></br>
+      <img src="./images/w2travel.png" alt="Weather2Travel logo" height="17%" width="17%"></img>
+      <br></br>
+      <img src="./images/CultureTrip.png" alt="Culture Trip logo" height="8%" width="8%"></img>
+      <br></br>
+      <img src="./images/bbclogo.png" alt="BBC logo" height="15%" width="15%"></img>
+      <br></br>
+      <img src="./images/rglogo.png" alt="Rough Guide logo" height="8%" width="8%"></img>
       </div>
 
         <div class="inner">

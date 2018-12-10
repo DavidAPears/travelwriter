@@ -16,8 +16,8 @@
    display: flex;
     align-items: center;
     justify-content: center;
-  text-shadow:   1px 2px 0px #A8A8A8 ,
-                 -1px -2px 1px #A8A8A8;
+  text-shadow:   1px 2px 0px black ,
+                 -1px -2px 1px black;
   font-size: 10vw;
     text-align: left;
     font-weight: 300;

@@ -18,6 +18,12 @@ class LeafletMap extends React.Component {
 
         var map = L.map(element);
 
+        //Instructional pop-up!
+        var popup = L.popup()
+          .setLatLng([32.885353, 13.180161])
+          .setContent("Click on the pins to reveal articles ✏️")
+          .openOn(map);
+  
         // Marker1 = Schengen, Luxembourg
         //var marker1 = L.marker([49.4709, 6.3650], {icon: myIcon}).addTo(map);   <- In cases where custom icon is req'd
         var marker1 = L.marker([49.4709, 6.3650]).addTo(map);
@@ -315,13 +321,6 @@ class LeafletMap extends React.Component {
         "<b>Cathay Pacific, Lantau, Hong Kong</b><br>'Cathay Pacific showcases new business class seat`<br><b>Insignia</b><br><a href=http://www.insignia-lb.com/posts/2358 target=new>click to read").openPopup();
 
 
-
-
-
-        // var popup = L.popup()
-        //   .setLatLng([55.9533, -3.1883])
-        //   .setContent("Click pins to reveal articles ✏️")
-        //   .openOn(map);
 
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors'
