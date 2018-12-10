@@ -3,7 +3,6 @@ import React from "react";
 
 const Home = () => (
 
-
 <div className="home">
   <h3 className="home-page-name">Kirsten Henton</h3>
   <div class="content">
