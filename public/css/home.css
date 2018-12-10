@@ -62,9 +62,9 @@
 }
 .content__container {
   font-size: 4vh;
-  overflow: hidden;
   height: 40px;
   padding: 0 40px;
+  position:relative;
 }
 .content__container:before {
   content: '[';
@@ -92,6 +92,7 @@
   display: inline;
   float: left;
   margin: 0;
+  font-size: 3.5vh;
 }
 .content__container__list {
   margin-top: 0;
@@ -109,6 +110,16 @@
   line-height: 40px;
   margin: 0;
 }
+
+@media screen and (max-width: 840px) {
+  .content__container__text {
+  display: inline;
+  float: left;
+  margin: 0;
+  font-size: 3vh;
+}
+ }
+
 @-webkit-keyframes opacity {
   0%, 100% {
     opacity: 0;
