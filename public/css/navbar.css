@@ -19,9 +19,10 @@
         color: #3ea4ee;
         text-align: center;
         padding: 1vw;
+        border-radius: 7.5px;
     }
     li a:hover {
-        background-color: #3ea4ee;
+        background-color: #02afdd;
         color: white;
     }
 /* NAVIGATION BAR ENDS */
