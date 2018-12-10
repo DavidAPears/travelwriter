@@ -247,7 +247,7 @@ class LeafletMap extends React.Component {
         // Marker42 = Ananda, Himalayas
         var marker42 = L.marker([30.1578, 78.2898]).addTo(map);
         marker42.bindPopup(
-        "<b>Ananda, Himalayas</b><br>'In the spotl;ight: Ananada in the Himalayas`<br><b>Insignia</b><br><a href=https://www.insignia.com/lifestyle-management/magazine/news/in-the-spotlight-ananda-in-the-himalayas/ target=new>click to read").openPopup();
+        "<b>Ananda, Himalayas</b><br>'In the spotlight: Ananada in the Himalayas`<br><b>Insignia</b><br><a href=https://www.insignia.com/lifestyle-management/magazine/news/in-the-spotlight-ananda-in-the-himalayas/ target=new>click to read").openPopup();
 
         // Marker43 = St Andrews, Scotland
         var marker43 = L.marker([56.33871, -2.79902]).addTo(map);
