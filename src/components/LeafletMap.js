@@ -209,6 +209,114 @@ class LeafletMap extends React.Component {
         marker37.bindPopup(
         "<b>Brasov, Romania</b><br>'TAKE AN OFF SEASON HIKE IN POIANA BRASOV`<br><b>Kiss From The World</b><br><a href=https://www.kissfromtheworld.com/magazine/blog-posts/travel/romania/poiana-brasov/take-an-off-season-hike-in-poiana-brasov/ target=new>click to read").openPopup();
 
+        // Marker38 = Kuala Lumpur, Malaysia
+        var marker38 = L.marker([3.1412, 101.68653]).addTo(map);
+        marker38.bindPopup(
+        "<b>Kuala Lumpur, Malaysia</b><br>'City guide to Kuala Lumpur, Malaysia`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/city-guide-to-kuala-lumpur-malaysia.php target=new>click to read").openPopup();
+
+        // Marker39 = Sheikh Zayed Grand Mosque, Abu Dhabi
+        var marker39 = L.marker([24.4127, 54.4759]).addTo(map);
+        marker39.bindPopup(
+        "<b>Sheikh Zayed Grand Mosque, Abu Dhabi</b><br>'Discover The Sheikh Zayed Grand Mosque`<br><b>Weather2Travel</b><br><a href=https://kirstensworldofwander.wordpress.com/2014/05/15/discover-the-sheikh-zayed-grand-mosque-abu-dhabi/ target=new>click to read").openPopup();
+
+        // Marker40 = Rome, Italy
+        var marker40 = L.marker([41.890251, 12.492373]).addTo(map);
+        marker40.bindPopup(
+        "<b>Rome, Italy</b><br>'Handpicked Rome: The best of the Eternal City for first timers`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/handpicked-rome-the-best-of-the-eternal-city-for-first-timers.php target=new>click to read").openPopup();
+
+        // Marker40 = West Highland Way, Scotland
+        var marker40 = L.marker([56.5141, -4.7661]).addTo(map);
+        marker40.bindPopup(
+        "<b>West Highland Way, Scotland</b><br>'Walking Back To Happiness`<br><b>The Sunday Post</b><br><a href=https://s3.amazonaws.com/media.muckrack.com/portfolio/items/27793/West_Highland_Way.pdf target=new>click to read").openPopup();
+
+        // Marker40 = Royal Deeside, Scotland
+        var marker40 = L.marker([57.0234, -3.2501]).addTo(map);
+        marker40.bindPopup(
+        "<b>Royal Deeside, Scotland</b><br>'Lovely Royal Deeside really is fit for a king`<br><b>The Sunday Post</b><br><a href=https://s3.amazonaws.com/media.muckrack.com/portfolio/items/27793/Royal_Deeside.pdf target=new>click to read").openPopup();
+
+        // Marker41 = Morcambe, Lancashire
+        var marker41 = L.marker([54.06835, -2.86108]).addTo(map);
+        marker41.bindPopup(
+        "<b>Royal Deeside, Scotland</b><br>'Luxury coaches are a transport of delight`<br><b>The Sunday Post</b><br><a href=https://s3.amazonaws.com/media.muckrack.com/portfolio/items/27793/KH%20Glenton%20Sunday%20Post.pdf target=new>click to read").openPopup();
+
+        // Marker41 = Morcambe, Lancashire
+        var marker41 = L.marker([54.06835, -2.86108]).addTo(map);
+        marker41.bindPopup(
+        "<b>Royal Deeside, Scotland</b><br>'Luxury coaches are a transport of delight`<br><b>The Sunday Post</b><br><a href=https://s3.amazonaws.com/media.muckrack.com/portfolio/items/27793/KH%20Glenton%20Sunday%20Post.pdf target=new>click to read").openPopup();
+
+        // Marker42 = Ananda, Himalayas
+        var marker42 = L.marker([30.1578, 78.2898]).addTo(map);
+        marker42.bindPopup(
+        "<b>Ananda, Himalayas</b><br>'In the spotl;ight: Ananada in the Himalayas`<br><b>Insignia</b><br><a href=https://www.insignia.com/lifestyle-management/magazine/news/in-the-spotlight-ananda-in-the-himalayas/ target=new>click to read").openPopup();
+
+        // Marker43 = St Andrews, Scotland
+        var marker43 = L.marker([56.33871, -2.79902]).addTo(map);
+        marker43.bindPopup(
+        "<b>St Andrews, Scotland</b><br>'Perfect escape to the magical east`<br><b>The Sunday Post</b><br><a href=https://s3.amazonaws.com/media.muckrack.com/portfolio/items/27793/St_Andrews.pdf target=new>click to read").openPopup();
+
+        // Marker44 = Marrakesh, Morocco
+        var marker44 = L.marker([31.669746, -7.973328]).addTo(map);
+        marker44.bindPopup(
+        "<b>Marrakesh, Morocco</b><br>'What to do in Marrakesh in Morocco`<br><b>Weather2Travel</b><br><a href=https://www.weather2travel.com/blog/what-to-do-in-marrakesh-morocco.php target=new>click to read").openPopup();
+
+        // Marker45 = The Whisky Shop, London
+        var marker45 = L.marker([51.510067, -0.133869]).addTo(map);
+        marker45.bindPopup(
+        "<b>The Whisky Shop, London</b><br>'Insignia loves: The Whisky Shop, London`<br><b>Insignia</b><br><a href=http://www.insignia-lb.com/posts/6207 target=new>click to read").openPopup();
+
+        // Marker46 = Sri Lanka
+        var marker46 = L.marker([6.4543, 81.5630]).addTo(map);
+        marker46.bindPopup(
+        "<b>Sri Lanka</b><br>'Sri Lankas Big Five`<br><b> </b><br><a href=https://kirstensworldofwander.wordpress.com/2013/05/29/sri-lankas-big-five/ target=new>click to read").openPopup();
+
+        // Marker47 = John Lancaster, London
+        var marker47 = L.marker([51.4872, -0.1245]).addTo(map);
+        marker47.bindPopup(
+        "<b>John Lancaster, London</b><br>'In the spotlight: designer John Lancaster of JLSA`<br><b>Insignia</b><br><a href=http://www.insignia-lb.com/posts/5231 target=new>click to read").openPopup();
+
+        // Marker48 = East Neuk, Scotland
+        var marker48 = L.marker([56.235, -2.77262577]).addTo(map);
+        marker48.bindPopup(
+        "<b>East Neuk, Scotland</b><br>'Take a look at East Neuk`<br><b>The Sunday Post</b><br><a href=https://s3.amazonaws.com/media.muckrack.com/portfolio/items/KH_East_Neuk_The_Sunday_Post.pdf target=new>click to read").openPopup();
+
+        // Marker49 = School Of Wok, London
+        var marker49 = L.marker([51.50666464, -0.125499498]).addTo(map);
+        marker49.bindPopup(
+        "<b>School Of Wok, London</b><br>'In the spotlight: London’s School of Wok`<br><b>The Sunday Post</b><br><a href=https//www.insignia-lb.com/posts/4232 target=new>click to read").openPopup();
+
+        // Marker50 = Said Ismael and the Catherine Walker, London
+        var marker50 = L.marker([51.4851, -0.1749]).addTo(map);
+        marker50.bindPopup(
+        "<b>Said Ismael and the Catherine Walker, London</b><br>'In the spotlight: Said Ismael and the Catherine Walker & Co atelier`<br><b>Insignia</b><br><a href=http://www.insignia-lb.com/posts/4188 target=new>click to read").openPopup();
+
+        // Marker51 = Sabyasachi, London
+        var marker51 = L.marker([51.501476, -0.140634]).addTo(map);
+        marker51.bindPopup(
+        "<b>Sabyasachi, London</b><br>'In the spotlight: Sabyasachi and the Cinema Suite`<br><b>Insignia</b><br><a href=http://www.insignia-lb.com/posts/2769 target=new>click to read").openPopup();
+
+        // Marker52 = The Spa at Conrad Algarve
+        var marker52 = L.marker([37.0877, -8.0299]).addTo(map);
+        marker52.bindPopup(
+        "<b>The Spa at Conrad Algarve</b><br>'The Top 10 New Spa Treatments`<br><b>Insignia</b><br><a href=http://www.insignia-lb.com/posts/1472 target=new>click to read").openPopup();
+
+        // Marker53 = Karolin Troubetzkoy and Jade Mountain St. Lucia
+        var marker53 = L.marker([13.8646, -61.0757]).addTo(map);
+        marker53.bindPopup(
+        "<b>Karolin Troubetzkoy and Jade Mountain St. Lucia</b><br>'In the spotlight: Karolin Troubetzkoy and Jade Mountain St. Lucia`<br><b>Insignia</b><br><a href=http://www.insignia-lb.com/posts/1957 target=new>click to read").openPopup();
+
+        // Marker54 = Maia, Seychelles
+        var marker54 = L.marker([4.6796, 55.4920]).addTo(map);
+        marker54.bindPopup(
+        "<b>Maia, Seychelles</b><br>'A new collection of seasonal experiences at maia Seychelles`<br><b>Insignia</b><br><a href=http://www.insignia-lb.com/features/a-new-collection-of-seasonal-experiences-at-maia-seychelles/ target=new>click to read").openPopup();
+
+        // Marker55 = Cathay Pacific, Lantau, Hong Kong
+        var marker55 = L.marker([22.2665, 113.9418]).addTo(map);
+        marker55.bindPopup(
+        "<b>Cathay Pacific, Lantau, Hong Kong</b><br>'Cathay Pacific showcases new business class seat`<br><b>Insignia</b><br><a href=http://www.insignia-lb.com/posts/2358 target=new>click to read").openPopup();
+
+
+
+
 
         // var popup = L.popup()
         //   .setLatLng([55.9533, -3.1883])
