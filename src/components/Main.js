@@ -1,11 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import About from "./About";
 import Home from "./Home";
-import Splash from "./Splash";
-import Writing from "./Writing";
-import Map from "./Map";
-import LeafletMap from "./LeafletMap";
+import Info from "./Info";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 const Request = require('../helpers/request.js');
 
@@ -44,11 +40,7 @@ render() {
         <React.Fragment>
           <Navbar />
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/splash" component={Splash} />
-          <Route path="/writing" component={Writing} />
-          <Route path="/map" component={Map} />
-          <Route path="/leafletmap" component={LeafletMap} />
+          <Route exact path="/info" component={Info} />
         </React.Fragment>
       </Router>
     );

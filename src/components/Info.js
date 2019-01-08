@@ -1,38 +1,38 @@
 import React, { Component } from "react";
 import $ from 'jquery';
 
-class About extends Component {
+class Info extends Component {
   constructor(props) {
     super(props);
     };
 
 // ANIMATION JQUERY FOR ABOUT PAGE (START)
 
-  // animation() {
-  //   function onScrollInit( items, trigger ) {
-  //     console.log("HELLO");
-  //     items.each( function() {
-  //       var osElement = $(this),
-  //         osAnimationClass = osElement.attr('data-os-animation'),
-  //         osAnimationDelay = osElement.attr('data-os-animation-delay');
-  //         osElement.css({
-  //           '-webkit-animation-delay':  osAnimationDelay,
-  //           '-moz-animation-delay':     osAnimationDelay,
-  //           'animation-delay':          osAnimationDelay
-  //         });
-  //
-  //         var osTrigger = ( trigger ) ? trigger : osElement;
-  //         osTrigger.waypoint(function() {
-  //           osElement.addClass('animated').toggleClass(osAnimationClass);
-  //         },{
-  //           triggerOnce: false,
-  //             offset: '90%'
-  //         });
-  //       });
-  //     }
-  //       onScrollInit( $('.os-animation') );
-  //       onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
-  //     }
+  animation() {
+    function onScrollInit( items, trigger ) {
+      console.log("HELLO");
+      items.each( function() {
+        var osElement = $(this),
+          osAnimationClass = osElement.attr('data-os-animation'),
+          osAnimationDelay = osElement.attr('data-os-animation-delay');
+          osElement.css({
+            '-webkit-animation-delay':  osAnimationDelay,
+            '-moz-animation-delay':     osAnimationDelay,
+            'animation-delay':          osAnimationDelay
+          });
+
+          var osTrigger = ( trigger ) ? trigger : osElement;
+          osTrigger.waypoint(function() {
+            osElement.addClass('animated').toggleClass(osAnimationClass);
+          },{
+            triggerOnce: false,
+              offset: '90%'
+          });
+        });
+      }
+        onScrollInit( $('.os-animation') );
+        onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+      }
 
 // ANIMATION JQUERY FOR ABOUT PAGE (END)
 
@@ -48,7 +48,7 @@ class About extends Component {
 
     <section class="introsection">
       <div class="img1">
-        <h3 className="title-heading">Kirsten</h3>
+        <h3 className="title-heading">David</h3>
       </div>
 
       <div class="container">
@@ -58,19 +58,16 @@ class About extends Component {
         </div>
 
       <div class="mod-inline os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-        <h3>Travel Tip 💡</h3>
-          <p>Visit UNESCO Sites</p>
-          <p>If you’re looking for the ultimate ‘Best Places to Visit in the World’ list, then, imho it’s easy to find.
-          Check out the <a href="https://whc.unesco.org/en/list/">UNESCO World Heritage Sites</a>.
-          Places only make it on this list if they have a particular cultural or natural significance that should be protected for the future or humankind. In other words, they’re a pretty big deal...</p>
+        <h3>CONTACT 📞</h3>
+          <p>consectetur adipisicing elit. Delectus harum ipsam excepturi, quisquam aperiam unde dolore, alias doloribus quibusdam consectetur fugit ullam modi corrupti quaerat, odit ipsum ab nostrum ratione voluptate quasi. Illum pariatur reiciendis eaque explicabo officiis nulla a fugit libero recusandae amet provident vitae alias veniam, nesciunt tempora!.</p>
       </div>
 
       <div class="inner">
-        <p>BRIEF PROFESSIONAL BIO: pariatur iste necessitatibus ad, nemo neque quasi quia error, minima nam molestias eum! At assumenda iste autem ea aut hic blanditiis quo possimus! Exercitationem atque officia expedita at, ut illo, ad tenetur, totam eius corporis possimus voluptates ea molestias esse earum obcaecati provident itaque fugit in reiciendis?</p>
+        <p>BIO: pariatur iste necessitatibus ad, nemo neque quasi quia error, minima nam molestias eum! At assumenda iste autem ea aut hic blanditiis quo possimus! Exercitationem atque officia expedita at, ut illo, ad tenetur, totam eius corporis possimus voluptates ea molestias esse earum obcaecati provident itaque fugit in reiciendis?</p>
 
         {/* <p class="mod-inset-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reprehenderit.</p> */}
 
-        <p>BRIEF PROFESSIONAL BIO: (cont) Ad aliquid quae voluptatibus, doloribus? Repudiandae quibusdam suscipit esse vero! Blanditiis, dignissimos expedita esse excepturi id quasi atque fuga reprehenderit nesciunt iusto officia culpa consectetur ipsum doloribus voluptatibus aliquam aut non minima, voluptas? Eligendi similique, voluptas qui aliquam non assumenda saepe unde! Fugiat ipsum aliquid perspiciatis perferendis, ex veritatis provident.</p>
+        <p>BIO: (cont) Ad aliquid quae voluptatibus, doloribus? Repudiandae quibusdam suscipit esse vero! Blanditiis, dignissimos expedita esse excepturi id quasi atque fuga reprehenderit nesciunt iusto officia culpa consectetur ipsum doloribus voluptatibus aliquam aut non minima, voluptas? Eligendi similique, voluptas qui aliquam non assumenda saepe unde! Fugiat ipsum aliquid perspiciatis perferendis, ex veritatis provident.</p>
         <p>Autem in cumque ratione inventore tenetur illum optio ullam doloribus odio, pariatur nemo commodi, sapiente suscpit, itaque ut! Doloribus, esse iure officiis magni ab, dolore perspiciatis quam illum suscipit voluptates veritatis inventore rerum molestiae pariatur ad, error iste. Voluptas in maxime velit ut voluptates facilis!</p>
       </div>
     </div>
@@ -78,14 +75,13 @@ class About extends Component {
 
   <section>
     <div class="img2 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-      <h1 className="title-heading">Henton</h1>
+      <h1 className="title-heading">Pears</h1>
     </div>
 
     <div class="container">
       <div class="caption os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0s">
-        <h3>Travel Tip 💡</h3>
-        <p>Pack a Sarong</p>
-        <p>Sarongs can be used as a wrap when you are cold, a towel, a curtain, or a piece of clothing that can be worn dozens of <a href="http://www.bigworldsmallpockets.com/sarong-travelling/">different ways</a></p>
+        <h3>LINKS </h3>
+        <p>consectetur adipisicing elit. Delectus harum ipsam excepturi, quisquam aperiam unde dolore, alias doloribus quibusdam consectetur fugit ullam modi corrupti quaerat, odit ipsum ab nostrum ratione voluptate quasi. Illum pariatur reiciendis eaque explicabo officiis nulla a fugit libero recusandae amet provident vitae alias veniam, nesciunt tempora!</p>
         </div>
 
     <div class="inner">
@@ -99,12 +95,7 @@ class About extends Component {
       </div>
     </div>
   </section>
-
-
-
-
-
-  </div>
+</div>
 )}}
 
-export default About;
+export default Info;

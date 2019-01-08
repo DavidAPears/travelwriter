@@ -1,28 +1,16 @@
 {
-  "name": "travelwriter",
+  "name": "gtsearch",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cors": "^2.8.4",
     "corsproxy": "^1.5.0",
-    "express": "^4.16.4",
-    "google-map-react": "^1.1.1",
-    "google-maps-react": "^2.0.2",
-    "instafeed.js": "^1.4.1",
-    "jquery": "^3.3.1",
-    "leaflet": "^1.3.4",
-    "mongo": "^0.1.0",
-    "mongodb": "^3.1.10",
     "node-fetch": "^2.2.0",
     "path": "^0.12.7",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-geolocated": "^2.4.0",
-    "react-google-maps": "^9.4.5",
-    "react-leaflet": "^2.1.2",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5",
-    "stream": "0.0.2"
+    "react-scripts": "1.1.5"
   },
   "scripts": {
     "start": "react-scripts start",

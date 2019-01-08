@@ -11,14 +11,13 @@
     }
     li a {
         display: inline-block;
-        color: #3ea4ee;
         text-align: center;
         padding: 1vw;
         border-radius: 7.5px;
         text-decoration: none;
     }
     li a:hover {
-        background-color: #02afdd;
+        background-color: #00b200;
         color: white;
         animation: pulse 1s;
         text-decoration: none;
