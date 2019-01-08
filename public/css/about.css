@@ -1,4 +1,4 @@
-/* INFO SECTION START */
+/* ABOUT SECTION START */
 .body {
   margin: 0;
   padding: 0;
@@ -23,6 +23,14 @@
     font-weight: 300;
     letter-spacing: -.05em;
     max-width: 60vw;
+}
+
+.publication-icons{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 30px;
+   padding-right: 30px;
 }
 
 .introsection {
@@ -76,7 +84,7 @@ font-size: 4vw;
 } */
 .mod-inline,
 .caption {
-  background-color: #00b200;
+  background-color: #90d7cc;
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
@@ -130,14 +138,25 @@ font-size: 4vw;
 }
 
 .img1 {
-  background: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80) no-repeat center bottom / cover;
-  height: 50vh;
+  background: url(https://i.pinimg.com/originals/e7/01/ef/e701ef08d033612fa93ef481d0209fb0.jpg) no-repeat center bottom / cover;
+  height: 100vh;
 }
 .img2 {
   height: 300px;
-  background: url(https://images.unsplash.com/photo-1515704089429-fd06e6668458?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) no-repeat center center / cover;
+  background: url(https://www.wallpaperup.com/uploads/wallpapers/2012/12/29/26882/424545d2ae2194a273c164bbdfdce534-700.jpg) no-repeat center center / cover;
     background-attachment: fixed;
 }
+.img3 {
+  background: url(http://s1.1zoom.me/b5250/957/Scenery_Temples_Evening_Bagan_Myanmar_Shrubs_Fog_516480_1920x1080.jpg) no-repeat center bottom / cover;
+  height: 100vh;
+}
+.img4 {
+  height: 300px;
+  background: url(https://www.hdwallpaper.nu/wp-content/uploads/2017/03/camel-14.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+}
+
+
 
 *, *:before, *:after {
   box-sizing: border-box;
